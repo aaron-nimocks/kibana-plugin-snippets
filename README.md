@@ -1,0 +1,1 @@
+# kibana-plugin-snippets
