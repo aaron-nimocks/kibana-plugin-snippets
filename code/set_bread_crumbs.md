@@ -15,7 +15,7 @@ async mount(params: AppMountParameters) {
     } = coreStart;
 
     // Change the breadcumbs
-    setBreadcrumbs([{ text: 'first' }, { text: 'second' }]);
+    setBreadcrumbs([{ text: 'home', href: '#' }, { text: 'current page' }]);
 
     return renderApp(coreStart, depsStart as AppPluginStartDependencies, params);
 }
